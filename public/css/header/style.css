@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+    scroll-behavior: smooth;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins";
+}
+.header {
+    background-image: linear-gradient(#c02136, #be5664);
+    /* background-image: linear-gradient(
+        to bottom,
+        rgba(192, 33, 54, 0.5),
+        transparent
+    ); */
+    height: 110px;
+    padding: 13px 0;
+}
+.top-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-header-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top-header-logo {
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-header-logo_img {
+    width: 55px;
+    height: 80px;
+}
+
+.top-header-actions {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.top-header-actions a {
+    text-decoration: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.top-header-action-btn {
+    padding: 12px 24px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+}
+
+.top-header-actions a.top-header-action-btn {
+    color: #ffffff;
+}
+.top-header-actions a.top-header-action-btn:hover {
+    background-color: #ffffff;
+    color: rgb(233, 50, 50);
+}
+
+.top-header .top-header-logo a {
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.top-header .top-header-logo a p.top-header-heading {
+    font-weight: bold;
+    font-size: 27px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
